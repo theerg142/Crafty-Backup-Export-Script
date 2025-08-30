@@ -4,6 +4,6 @@ This script will use the Crafty API with the provided username and password to g
 This could be useful with a cronjob to regularly copy backups to a remote location. I.E. Possibly combine with rclone mount to allow for S3 storage use or use a file share mount.
 
 Usage:
-./Export-Crafty-Backups.sh /<FolderLocation> https://<CraftyIPorDomain>:8443 admin SuperSecretPassword
+./Export-Crafty-Backups.sh /FolderLocation https://CraftyIPorDomain:8443 admin SuperSecretPassword
 
 Obvoiusly replace FolderLocation, CraftyIPorDomain, admin, and SuperSecretPassword with the respective values.
